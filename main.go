@@ -146,7 +146,7 @@ func callbackHandler(w http.ResponseWriter, r *http.Request) {
 						var mid1 string
 						row.Scan(&mid1)
 						if mid1 != content.From{
-							bot.SendText([]string{mid1}, info[0].DisplayName+":\n"+text.Text)
+							bot.SendText([]string{mid1}, info[0].DisplayName+"QQ:\n"+text.Text)
 						}
 					}
 				}
